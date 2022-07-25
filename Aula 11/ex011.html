@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De qual país?</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>De qual país você vem?</h1>
+    <p> <label for="ipais">País de origem:</label> <input type="text" name="ipais" id="ipais"></p>
+    <p><input type="button" value="Enviar" onclick="pesquisar()"> <input type="button" value="Limpar" onclick="limpar()"></p>
+    
+    <div id="res"></div>
+    <script>
+        function pesquisar() {
+            var pais = window.document.querySelector('input#ipais').value
+            var res = window.document.querySelector('div#res')
+            
+            if (pais == 'Brasil') {
+                res.innerHTML += `<p>Você é Brasileiro.</p>`
+            } else {
+                res.innerHTML += `<p>Você é estrangeiro.</p>`
+            }
+    }
+
+    </script>
+</body>
+</html>

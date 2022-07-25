@@ -16,7 +16,7 @@
         var txtv = window.document.getElementById('ivel') //essa é a ligação do JS com o html do <p>
         function calcular (){
             var res = window.document.querySelector('div#res')
-            var vel = Number(txtv.value) //pega o valor da caixa de texto com a velocidade
+            var vel = Number(txtv.value) //pega o valor da caixa de texto com a velocidade e transfroam em número
             res.innerHTML = `<p>Sua velocidade atual é de ${vel} Km/h.</p>`
             if (vel > 60) {
                 res.innerHTML += `<p>Você está <strong>multado</strong> por excesso de velocidade!</p>` // novamente o += é usado para concatenar, se não for colocado ele irá apagar a primeira mensagem.
