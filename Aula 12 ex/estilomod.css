@@ -1,0 +1,26 @@
+@charet 'UTF-8';
+
+body {
+    background-color: steelblue;
+    font: normal 1em Verdana;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.312);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
