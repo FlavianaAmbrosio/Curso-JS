@@ -1,0 +1,28 @@
+@charset 'UTF-8';
+
+body {
+    background-color: rgb(8, 137, 217);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+section {
+    width: 700px;
+    height: 150px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.356);
+    border-radius: 7px;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
