@@ -11,20 +11,25 @@
         <h1>Verificador de Idade</h1>
     </header>
     <section>
-        <p><label for="idade">Ano de Nascimento:</label>
-        <input type="number" name="idade" id="idade"></p>
-        <p>Sexo:
-            <input type="radio" name="masc" id="masc" checked><label for="masc">Masculino</label>
-            <input type="radio" name="fem" id="fem"><label for="fem">Feminino</label>
-        </p> 
-        <p><input type="button" value="Verificar"></p>
+        <div>
+            <p>Ano de Nascimento:
+                <input type="number" name="ano " id="ano"></p>
+            <p>Sexo:
+                <input type="radio" name="sex" id="masc" checked><label for="masc">Masculino</label>
+                <input type="radio" name="sex" id="fem"><label for="fem">Feminino</label> <!--No caso desses 2 inputs, por serem de alternativa, eles devem ter o mesmo nome para funcionar, caso contrário ambos poderão ser marcados ao mesmo tempo-->
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
         
         <div id="res">
-            <p>Preencha todos os dados acima para ver o resultado!</p>
+            Preencha todos os dados acima para ver o resultado!
         </div>
     </section>
     <footer>
         <p>&copy; CursoemVideo</p>
     </footer>
+    <script src="estiloidade.js"></script>
 </body>
 </html>

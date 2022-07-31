@@ -12,8 +12,7 @@ header {
 }
 
 section {
-    width: 700px;
-    height: 150px;
+    width: 500px;
     background-color: white;
     margin: auto;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.356);
